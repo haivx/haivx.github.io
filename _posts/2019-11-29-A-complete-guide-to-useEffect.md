@@ -349,6 +349,7 @@ Nếu nói chặt chẽ hơn, chúng không như thế. Nhưng về tư tưởng
 * Browser: Cool. Tôi sẽ paint nó ra screen.
 * React: OK, bây giờ tôi sẽ chạy function efect bạn đưa tớ
   - Chạy function `() => { document.title = 'You clicked 0 times' }`
+
   --------------------------------
 Và bây giờ recap lại những gì xảy ra khi ta click:
 
@@ -361,6 +362,7 @@ Và bây giờ recap lại những gì xảy ra khi ta click:
 * Browser: Cool. Tôi sẽ paint nó ra screen.
 * React: OK, bây giờ tôi sẽ chạy function efect bạn đưa tớ
   - Chạy function `() => { document.title = 'You clicked 1 times' }`
+  
   --------------------------------
 
 *4. Mỗi lần render đều có mọi thứ riêng nó*
@@ -523,4 +525,4 @@ function Example() {
   );
   // ...
 }
-```
+````
